@@ -133,7 +133,7 @@ button, a, input { -webkit-tap-highlight-color: transparent; cursor: none; }
 .section-heading {
   max-width: 48rem; margin: 0;
   font-family: var(--font-display);
-  font-size: 4.7rem; font-weight: 800; letter-spacing: -0.025em; line-height: 1.0;
+  font-size: 4.7rem; font-weight: 900; letter-spacing: -0.02em; line-height: 1.0;
   color: var(--black);
 }
 .section-intro {
@@ -258,7 +258,7 @@ button, a, input { -webkit-tap-highlight-color: transparent; cursor: none; }
 }
 .hero h1 {
   max-width: 46rem; margin: 0;
-  font-family: var(--font-display); font-size: 8rem; font-weight: 800;
+  font-family: var(--font-display); font-size: 8rem; font-weight: 900;
   letter-spacing: -0.035em; line-height: 0.93; color: white;
 }
 .hero h1 em { display: block; font-style: normal; color: rgba(255,255,255,0.4); }
@@ -621,7 +621,7 @@ button, a, input { -webkit-tap-highlight-color: transparent; cursor: none; }
   background: rgba(255,255,255,0.05); pointer-events: none;
 }
 .apply-banner-inner { display: flex; align-items: center; justify-content: space-between; gap: 2rem; padding-block: 4.5rem; flex-wrap: wrap; position: relative; z-index: 1; }
-.apply-banner h2 { margin: 0; font-family: var(--font-display); font-size: 3.4rem; font-weight: 800; line-height: 1.0; letter-spacing: -0.02em; max-width: 36rem; color: white; }
+.apply-banner h2 { margin: 0; font-family: var(--font-display); font-size: 3.4rem; font-weight: 900; line-height: 1.0; letter-spacing: -0.02em; max-width: 36rem; color: white; }
 .apply-banner p { margin: 0.65rem 0 0; font-size: 1rem; color: rgba(255,255,255,0.65); max-width: 28rem; }
 .apply-banner-cta {
   display: inline-flex; min-height: 3.6rem; align-items: center; gap: 0.8rem;
@@ -733,7 +733,7 @@ button, a, input { -webkit-tap-highlight-color: transparent; cursor: none; }
   width: 22rem; height: 22rem; border-radius: 50%;
   background: rgba(255,255,255,0.08); pointer-events: none;
 }
-.apply-hero h1 { margin: 0; font-family: var(--font-display); font-size: 5rem; font-weight: 800; color: white; line-height: 0.95; letter-spacing: -0.03em; }
+.apply-hero h1 { margin: 0; font-family: var(--font-display); font-size: 5rem; font-weight: 900; color: white; line-height: 0.95; letter-spacing: -0.025em; }
 .apply-hero h1 span { color: rgba(255,255,255,0.5); display: block; }
 .apply-hero p { margin: 1.3rem 0 0; color: rgba(255,255,255,0.7); font-size: 1.05rem; max-width: 32rem; line-height: 1.65; }
 .apply-form-wrap { padding-block: 5rem; }
@@ -760,7 +760,7 @@ button, a, input { -webkit-tap-highlight-color: transparent; cursor: none; }
   background: rgba(255,255,255,0.08); pointer-events: none;
 }
 .service-hero-badge { display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.2); border-radius: 2rem; padding: 0.4rem 0.95rem; color: white; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1.5rem; }
-.service-hero h1 { margin: 0; font-family: var(--font-display); font-size: 5.5rem; font-weight: 800; color: white; line-height: 0.93; letter-spacing: -0.03em; }
+.service-hero h1 { margin: 0; font-family: var(--font-display); font-size: 5.5rem; font-weight: 900; color: white; line-height: 0.93; letter-spacing: -0.025em; }
 .service-hero h1 span { color: rgba(255,255,255,0.5); display: block; }
 .service-hero p { margin: 1.5rem 0 0; color: rgba(255,255,255,0.7); font-size: 1.05rem; max-width: 36rem; line-height: 1.7; }
 .service-hero-actions { display: flex; gap: 1.2rem; margin-top: 2.5rem; flex-wrap: wrap; }
