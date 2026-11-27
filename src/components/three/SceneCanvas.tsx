@@ -3,22 +3,22 @@
 import { CheckCircle2 } from "lucide-react";
 
 const PLACEMENTS = [
-  { initials: "JT", name: "James T.",   role: "HGV Driver",      cls: "hv-pc-tl", delay: "0s"    },
-  { initials: "SM", name: "Sarah M.",   role: "Forklift Op.",    cls: "hv-pc-tr", delay: "0.25s" },
-  { initials: "LB", name: "Lisa B.",    role: "Chef de Partie",  cls: "hv-pc-bl", delay: "0.5s"  },
-  { initials: "MK", name: "Marcus K.",  role: "Warehouse Op.",   cls: "hv-pc-br", delay: "0.75s" },
+  { initials: "JT", name: "James T.",  role: "HGV Driver",     cls: "hv-pc-tl", delay: "0s"    },
+  { initials: "SM", name: "Sarah M.",  role: "Forklift Op.",   cls: "hv-pc-tr", delay: "0.25s" },
+  { initials: "LB", name: "Lisa B.",   role: "Chef de Partie", cls: "hv-pc-bl", delay: "0.5s"  },
+  { initials: "MK", name: "Marcus K.", role: "Warehouse Op.",  cls: "hv-pc-br", delay: "0.75s" },
 ] as const;
 
 export default function SceneCanvas() {
   return (
     <div className="hv-wrap" aria-hidden="true">
 
-      {/* Decorative rotating rings */}
+      {/* Decorative rotating rings — rust tinted */}
       <div className="hv-ring hv-ring-1" />
       <div className="hv-ring hv-ring-2" />
       <div className="hv-ring hv-ring-3" />
 
-      {/* Animated placement cards */}
+      {/* Animated placement cards — glassmorphism */}
       {PLACEMENTS.map((p) => (
         <div
           key={p.initials}
@@ -37,7 +37,7 @@ export default function SceneCanvas() {
         </div>
       ))}
 
-      {/* Central metric card */}
+      {/* Central metric card — glassmorphism */}
       <div className="hv-card">
         <div className="hv-card-header">
           <span className="hv-live-dot" />

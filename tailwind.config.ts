@@ -13,7 +13,7 @@ const config: Config = {
         focus: "var(--color-focus)",
       },
       fontFamily: {
-        sans: ["var(--font-sans)"],
+        sans: ["var(--font-)"],
         mono: ["var(--font-mono)"],
       },
       maxWidth: {
